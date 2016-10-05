@@ -102,7 +102,7 @@ class ImagineController
                 }
 
                 $this->cacheManager->store(
-                    $this->filterManager->applyFilter($binary, $filter),
+                    $binary,
                     $path,
                     $filter,
                     $resolver
